@@ -1,0 +1,94 @@
+@media all and (max-width:1100px){
+.menu-area ul li .page-btn{margin-left:23px}
+.menu-area ul li a{color:#000;font-size:15px;margin-left:20px}
+}
+@media all and (max-width:990px){
+.menu-area{background:#fff;height:100vh;width:100%;position:absolute;z-index:99999;top:0;left:0;-webkit-transition:all .4s;-o-transition:all .4s;transition:all .4s;-webkit-transform:translate(-100%,0);-ms-transform:translate(-100%,0);transform:translate(-100%,0)}
+.menu-area ul{display:block}
+.menu-area ul li{padding-bottom:10px}
+.menu-area ul li a{margin-left:0}
+.menu-area ul li .page-btn{margin-left:0}
+.logo-area button{display:inline-block}
+.mobile-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:16px 0}
+.mobile-logo a img{width:70%}
+.bars-btn,.close-btn{background-color:#cfb579;border:none;padding:3px 12px;color:#fff;font-size:24px;outline:0;border-radius:2px}
+.logo-area{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.menu-area.open-menu{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}
+.banner-left h4{font-size:13px}
+.banner-left h1{font-size:34px}
+.banner-left p{padding:0 0 20px 0}
+.about-area::before{display:none}
+.about-area{padding-top:0}
+.about-area img{left:0;top:0}
+.about-area::after{display:none}
+.about-right{padding:0}
+.about-area{padding-top:0;padding:50px 0}
+.section-title.black h2{color:#000;width:100%;font-size:32px}
+.passion-area{padding-top:80px;padding-bottom:50px}
+.section-title h2{width:100%;font-size:32px;margin-bottom:38px}
+.single-passion-item{margin-bottom:30px}
+.section-title{margin-bottom:40px}
+.apartment-area .section-title{display:block}
+.apart-img{height:300px}
+.apart-content span{font-size:12px}
+.apart-content a h3{font-size:18px;margin:7px 0}
+.apart-content ul{border-top:1px solid #e8ebef;padding:13px 0;display:block}
+.apart-content ul li{display:inline-block}
+.top-content h1{font-size:25px;padding-bottom:20px}
+.single-divided-item.divided-2 .top-content{top:70%}
+.divided-1{margin-top:70px}
+.top-content{top:-23%}
+.top-content{padding:28px}
+.top-pos-img{top:0;left:-60px}
+.right-pos-img{bottom:0}
+.section-title h2::after{bottom:-25%}
+.claint-details{margin-bottom:20px}
+.newsletter-area{padding:60px 0}
+.blog-content h2 a{font-size:23px;line-height:27px}
+.blog-content{padding:19px 23px;background:#fff}
+.blog-bg{z-index:-1}
+.right-single-blog .blog-content{height:100%;padding:13px 0 13px 18px}
+.footer-area{padding:70px 0 0 0}
+.footer-heading{padding-bottom:15px}
+.single-foot-itm{margin-bottom:30px}
+.copyright{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;flex-direction:column-reverse}
+.copytext{padding-top:15px}
+.single-foot-itm input{width:95%}
+.hide{overflow:hidden}
+.blog-bg-2{position:absolute;top:0;left:-138px;bottom:0;margin:auto;z-index:-1}
+.logo-area a img{width:70%}
+}
+@media all and (max-width:768px){
+.single-passion-item{padding:30px 20px}
+.single-appartment{margin-bottom:30px}
+.apart-content ul{padding:13px 0 0 0}
+.apart-content span{display:block}
+.divided-img img{margin-bottom:30px;width:70%}
+.divided-img{text-align:center}
+.sec-padd-80{padding-top:50px;padding-bottom:50px}
+.top-content{left:15px}
+.single-divided-item.divided-2 .top-content{top:-70px;left:15px}
+.divided-1{margin-bottom:80px}
+.right-pos-img{display:none}
+.single-blog{margin-bottom:30px}
+.blog-img img{width:100%}
+.copytext p{text-align:center}
+.single-foot-itm span{display:block}
+.banner-content.row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}
+.banner-left{margin-top:75px}
+.banner-right a{left:0;right:0}
+.banner-left p{color:#000}
+}
+@media all and (max-width:575px){
+.divided-img img{width:100%}
+.divided-img img{margin:0}
+.top-content{left:0;width:100%;top:100%}
+.divided-1{margin-bottom:0;margin-top:0}
+.divided-2{margin-top:251px}
+.single-divided-item.divided-2 .top-content{top:100%;left:0}
+.divided-area{padding:50px 0 195px 0}
+.owl-theme .owl-nav.disabled+.owl-dots{margin-top:18px}
+.right-single-blog .blog-content{padding:13px 0 13px 0}
+.banner-left h1{font-size:25px}
+.banner-right a{bottom:0}
+}
